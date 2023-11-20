@@ -63,3 +63,11 @@ function isEven(number) {
   } else {
     console.log(`${myNumber} is odd.`);
   }
+
+  let myNumber = 5;
+  
+  if (isEven(myNumber)) {
+    console.log(`${myNumber} is even.`);
+  } else {
+    console.log(`${myNumber} is odd.`);
+  }
