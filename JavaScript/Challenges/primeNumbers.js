@@ -50,3 +50,16 @@ const duplicateValueArray = function (givArr) {
 const unionArr = [...new Set(givenArray)]
 console.log("Union arry:"+unionArr)
 
+// Function to check if a number is even
+function isEven(number) {
+    return number % 2 === 0;
+  }
+  
+  // Example usage
+  let myNumber = 5;
+  
+  if (isEven(myNumber)) {
+    console.log(`${myNumber} is even.`);
+  } else {
+    console.log(`${myNumber} is odd.`);
+  }
