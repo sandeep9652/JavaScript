@@ -52,22 +52,22 @@ console.log("Union arry:"+unionArr)
 
 // Function to check if a number is even
 function isEven(number) {
-    return number % 2 === 0;
-  }
-  
-  // Example usage
-  let myNumber = 5;
-  
-  if (isEven(myNumber)) {
-    console.log(`${myNumber} is even.`);
-  } else {
-    console.log(`${myNumber} is odd.`);
-  }
+  return number % 2 === 0;
+}
 
-  let myNumber = 5;
-  
-  if (isEven(myNumber)) {
-    console.log(`${myNumber} is even.`);
-  } else {
-    console.log(`${myNumber} is odd.`);
-  }
+// Example usage
+let myNumber = 5;
+
+if (isEven(myNumber)) {
+  console.log(`${myNumber} is even.`);
+} else {
+  console.log(`${myNumber} is odd.`);
+}
+
+let myNumber01 = 5;
+
+if (isEven(myNumber)) {
+  console.log(`${myNumber} is even.`);
+} else {
+  console.log(`${myNumber} is odd.`);
+}
